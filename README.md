@@ -52,6 +52,7 @@ Native or cross-platform mobile apps for patient empowerment, tracking, and remi
 Software for desktop operating systems suitable for offline use or deep data tracking.
 
 - [starcalibre/inrtracker](https://github.com/starcalibre/inrtracker) - Native Windows (WPF) application for logging historical INR values and doses locally.
+- [suradet-ps/warfarin-care](https://github.com/suradet-ps/warfarin-care) - Tauri and Vue 3 desktop application for managing warfarin clinics, featuring INR tracking, TTR calculation, and HOSxP database integration.
 
 ## Machine Learning & Research
 
