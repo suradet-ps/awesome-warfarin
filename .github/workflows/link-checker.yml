@@ -8,16 +8,21 @@ on:
   schedule:
     - cron: "0 0 * * 0" # Weekly on Sunday at 00:00
 
+permissions:
+  contents: read
+
 jobs:
   link-checker:
     runs-on: ubuntu-latest
     name: Check for broken links
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb20b4291c5c5b76e69f82ec4466cfbbd9b # v7.0.0
+        with:
+          persist-credentials: false
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v2
+        uses: lycheeverse/lychee-action@8646ba3329f6c4661eeca37e75c6d194df1ae09f # v2.8.0
         with:
           args: --verbose --no-progress "./**/*.md"
           fail: true

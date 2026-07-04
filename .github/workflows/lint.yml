@@ -6,16 +6,21 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   lint-md:
     runs-on: ubuntu-latest
     name: Lint Markdown content
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb20b4291c5c5b76e69f82ec4466cfbbd9b # v7.0.0
+        with:
+          persist-credentials: false
 
       - name: Markdown lint
-        uses: DavidAnson/markdownlint-cli2-action@v24
+        uses: DavidAnson/markdownlint-cli2-action@8de2aa0e3c6edef5b7d0d2dec73cc8bd54c7cc71 # v24.0.0
         with:
           config: ".markdownlint.yaml"
           globs: "**/*.md"
@@ -25,20 +30,24 @@ jobs:
     name: Lint for editorconfig violations
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb20b4291c5c5b76e69f82ec4466cfbbd9b # v7.0.0
+        with:
+          persist-credentials: false
 
       - name: Check for editorconfig violations
-        uses: editorconfig-checker/action-editorconfig-checker@v2
+        uses: editorconfig-checker/action-editorconfig-checker@840e866073631848988fafc5e6cb52b07f1fecab # v2.2.0
 
   lint-markdown-toc:
     runs-on: ubuntu-latest
     name: Lint for Table of Contents
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb20b4291c5c5b76e69f82ec4466cfbbd9b # v7.0.0
+        with:
+          persist-credentials: false
 
       - name: Setup Node
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@48b55a02c2d5f55e4ee1e2fbd0a6ed6358f12ade # v6.4.0
         with:
           node-version: "24"
 
