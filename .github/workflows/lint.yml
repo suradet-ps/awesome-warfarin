@@ -15,7 +15,7 @@ jobs:
     name: Lint Markdown content
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@9c091bb20b4291c5c5b76e69f82ec4466cfbbd9b # v7.0.0
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
@@ -30,7 +30,7 @@ jobs:
     name: Lint for editorconfig violations
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@9c091bb20b4291c5c5b76e69f82ec4466cfbbd9b # v7.0.0
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
@@ -42,7 +42,7 @@ jobs:
     name: Lint for Table of Contents
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@9c091bb20b4291c5c5b76e69f82ec4466cfbbd9b # v7.0.0
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
 
