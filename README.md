@@ -67,6 +67,7 @@ Projects leveraging ML, data analysis, and statistical modeling (e.g., IWPC data
 - [ifthekarhussain/warfarin-dosing-ml-tool-](https://github.com/ifthekarhussain/warfarin-dosing-ml-tool-) - End-to-end ML pipeline with an interactive Gradio prediction tool.
 - [karneslab/warfarin-machinelearning](https://github.com/karneslab/warfarin-machinelearning) - Comparison of ML models for predicting stable doses in diverse populations.
 - [ranaabdelaal/SNP-Association-Analysis-with-Warfarin-Dose](https://github.com/ranaabdelaal/SNP-Association-Analysis-with-Warfarin-Dose) - Regression-based analysis of CYP2C9 and VKORC1 SNP associations with warfarin dose variability, including HWE testing and ROC evaluation.
+- [S-Bhardwaj21/aetion-ai](https://github.com/S-Bhardwaj21/aetion-ai) - Causal ML framework (X-Learner, CausalML/EconML) for personalized warfarin dosing with containerized REST API deployment.
 - [Uche-Stephen/pgx-warfarin-ml-portfolio](https://github.com/Uche-Stephen/pgx-warfarin-ml-portfolio) - Scikit-learn pipeline with SHAP explainability and a Streamlit web app.
 
 ## Related Resources
