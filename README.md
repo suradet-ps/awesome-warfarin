@@ -39,6 +39,7 @@ Web-based tools and dashboards for calculating or simulating warfarin dosage. Id
 - [prajwal-17/warfarin-dose-calculator](https://github.com/prajwal-17/warfarin-dose-calculator) - React + TypeScript app for anticoagulant dosing (Warfarin & Acitrom).
 - [pzweuj/warfarin-dosage-calculator](https://github.com/pzweuj/warfarin-dosage-calculator) - Next.js application implementing pharmacogenomic algorithms for initial dosage.
 - [suradet-ps/warfarin-app](https://github.com/suradet-ps/warfarin-app) - Fast regimen planner using Vue.js and Rust WebAssembly for intelligent dosing schedules.
+- [tclark41/daysupply-calculator](https://github.com/tclark41/daysupply-calculator) - Offline PWA for retail day-supply math including warfarin (variable dose by weekday), insulin, topicals, eye drops, and inhalers.
 - [warfarin-net/warfarin-planner](https://github.com/warfarin-net/warfarin-planner) - Dose-to-pill PWA with smart regimen sorting and dispensing calculations.
 
 ## Mobile Applications
